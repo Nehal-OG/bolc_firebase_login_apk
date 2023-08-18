@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "936593969280",
+    "project_id": "login-bloc-8b15d",
+    "storage_bucket": "login-bloc-8b15d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936593969280:android:3ba581e968ab30fd1fd665",
+        "android_client_info": {
+          "package_name": "com.example.bolc_firebase_login_apk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936593969280-on6ipmechr9hlt15h291ose20sc9487t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJs7RjPBfH2zrY71nUxj6zNmEBSzRu5K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936593969280-on6ipmechr9hlt15h291ose20sc9487t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "936593969280-2nqh7eqh24s8baoh3ag24jpjhn02cnj7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bolcFirebaseLoginApk"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
