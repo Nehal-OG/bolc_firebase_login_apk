@@ -23,9 +23,15 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -59,25 +65,5 @@ class DefaultFirebaseOptions {
     messagingSenderId: '936593969280',
     projectId: 'login-bloc-8b15d',
     storageBucket: 'login-bloc-8b15d.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBliB_LSeu-cHb62mU4MrAUjoTGH1L9Qpc',
-    appId: '1:936593969280:ios:913b9b6b3c587e391fd665',
-    messagingSenderId: '936593969280',
-    projectId: 'login-bloc-8b15d',
-    storageBucket: 'login-bloc-8b15d.appspot.com',
-    iosClientId: '936593969280-2nqh7eqh24s8baoh3ag24jpjhn02cnj7.apps.googleusercontent.com',
-    iosBundleId: 'com.example.bolcFirebaseLoginApk',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBliB_LSeu-cHb62mU4MrAUjoTGH1L9Qpc',
-    appId: '1:936593969280:ios:afaf39476a04e7401fd665',
-    messagingSenderId: '936593969280',
-    projectId: 'login-bloc-8b15d',
-    storageBucket: 'login-bloc-8b15d.appspot.com',
-    iosClientId: '936593969280-cr4i6s0kmh5k9k43cehftdal2gtlgang.apps.googleusercontent.com',
-    iosBundleId: 'com.example.bolcFirebaseLoginApk.RunnerTests',
   );
 }
