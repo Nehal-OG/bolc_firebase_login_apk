@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:bolc_firebase_login_apk/bloc/app_bloc.dart';
 import 'package:bolc_firebase_login_apk/bloc/app_event.dart';
-import 'package:bolc_firebase_login_apk/extensions/if_debugging.dart';
+// import 'package:bolc_firebase_login_apk/extensions/if_debugging.dart';
 
 class LoginView extends HookWidget {
   const LoginView({Key? key}) : super(key: key);
@@ -11,12 +11,12 @@ class LoginView extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final emailController = useTextEditingController(
-      text: 'vandad.np@gmail.com'.ifDebugging,
-    );
+        // text: 'vandad.np@gmail.com'.ifDebugging,
+        );
 
     final passwordController = useTextEditingController(
-      text: 'foobarbaz'.ifDebugging,
-    );
+        // text: 'foobarbaz'.ifDebugging,
+        );
 
     return Scaffold(
       appBar: AppBar(
